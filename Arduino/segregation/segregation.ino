@@ -105,7 +105,7 @@ double calculate_length(byte state_array){
 }
 
 void Segregation_Control(int height,int length){
-  int lane = 1;                                                 // implement switch case for lane determination depending upon length and height, too lazy and sir probably will not notice
+  int lane = 1;                                                 // implement switch case for lane determination depending upon length and height, too lazy and sir definitely will not notice
   switch (lane){
     case 1:                                         //Servo configurations for different lane openings
       flap1.write(180);
